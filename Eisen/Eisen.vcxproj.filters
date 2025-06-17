@@ -15,12 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Src\Test.h">
+    <ClInclude Include="Src\Eisen\Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eisen\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Eisen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Src\Test.cpp">
+    <ClCompile Include="Src\Eisen\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
