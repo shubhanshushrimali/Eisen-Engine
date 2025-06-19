@@ -16,10 +16,7 @@ class Sandbox : public Eisen::Application
 
 
 
-
-int main()
+Eisen::Application* CreateApplication()
 {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox; 
+	return new Sandbox(); 
 }

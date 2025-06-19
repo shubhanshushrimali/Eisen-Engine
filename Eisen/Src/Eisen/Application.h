@@ -16,6 +16,9 @@ namespace Eisen {
 
 	};
 
+	// to be define
+	Application* CreateApplication(); 
+
 }
 
 

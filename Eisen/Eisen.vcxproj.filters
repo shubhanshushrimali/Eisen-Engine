@@ -24,6 +24,9 @@
     <ClInclude Include="Src\Eisen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Eisen\EntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Eisen\Application.cpp">

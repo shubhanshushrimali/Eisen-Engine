@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Src\Eisen\EntryPoint.h" />
     <ClInclude Include="Src\Eisen.h" />
     <ClInclude Include="Src\Eisen\Application.h" />
     <ClInclude Include="Src\Eisen\Core.h" />
