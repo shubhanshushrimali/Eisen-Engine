@@ -8,7 +8,7 @@ class Sandbox : public Eisen::Application
 
 	  }
 	   
-	  ~Sandbox()
+	  ~Sandbox() override
 	  {
 
 	  }
@@ -16,7 +16,7 @@ class Sandbox : public Eisen::Application
 
 
 
-Eisen::Application* CreateApplication()
+Eisen::Application* Eisen::CreateApplication()
 {
 	return new Sandbox(); 
 }
