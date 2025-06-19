@@ -6,19 +6,14 @@ namespace Eisen {
 
 	class EISEN_API Application
 	{
-	
-	 public:
+	public:
 		Application();
-		virtual ~Application(); 
+		virtual ~Application();
 
-
-		void Run(); 
-
+		void Run();
 	};
 
-	// to be define
-	Application* CreateApplication(); 
+	// To be defined in CLIENT
+	Application* CreateApplication();
 
 }
-
-

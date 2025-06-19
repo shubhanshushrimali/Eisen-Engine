@@ -1,13 +1,10 @@
 #pragma once
 
-// For use by Eisen Application
+// For use by Eisen applications
 
-#include <stdio.h>
 #include "Eisen/Application.h"
 #include "Eisen/Log.h"
 
-
-
-// ------ Entry Point ------- 
+// ---Entry Point---------------------
 #include "Eisen/EntryPoint.h"
-//---------------------------
+// -----------------------------------

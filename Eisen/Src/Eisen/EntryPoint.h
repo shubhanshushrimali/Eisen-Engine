@@ -1,25 +1,19 @@
 #pragma once
 
+#ifdef EZ_PLATFORM_WINDOWS
 
+extern Eisen::Application* Eisen::CreateApplication();
 
-#ifdef EZ_PLATFROM_WINDOWS
-
-extern Eisen::Application* Eisen::CreateApplication(); 
-
-
-int main(int argc , char** argv)
+int main(int argc, char** argv)
 {
-	Eisen::Log::Init(); 
-	EZ_CORE_WARN ("intialsed core logger");
-	EZ_INFO ("intialsed client logger"); 
+	Eisen::Log::Init();
+	EZ_CORE_WARN("Initialized Log!");
+	int a = 5;
+	EZ_INFO("Hello! Var={0}", a);
 
-
-
-	printf("Eisen Engine\n"); 
-	auto app = Eisen::CreateApplication(); 
+	auto app = Eisen::CreateApplication();
 	app->Run();
 	delete app;
 }
-
 
 #endif
