@@ -1,9 +1,12 @@
 #pragma once
+#pragma warning(push)
+#pragma warning(disable : 4251)
 
 #include <memory>
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
+//#include "spdlog/fmt/ostr.h"
 
 namespace Eisen {
 
@@ -34,3 +37,23 @@ namespace Eisen {
 #define EZ_WARN(...)	      ::Eisen::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define EZ_ERROR(...)	      ::Eisen::Log::GetClientLogger()->error(__VA_ARGS__)
 #define EZ_FATAL(...)	      ::Eisen::Log::GetClientLogger()->fatal(__VA_ARGS__)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pragma warning(pop)

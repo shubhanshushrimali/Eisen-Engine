@@ -26,6 +26,7 @@ project "Eisen"
 
 	includedirs
 	{
+		
 		"%{prj.name}/vendor/spdlog/include"
 	}
 

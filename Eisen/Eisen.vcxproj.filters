@@ -4,6 +4,9 @@
     <Filter Include="Eisen">
       <UniqueIdentifier>{59251B0D-C539-43BE-8EBB-E61DFA8E3FEF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Eisen\Events">
+      <UniqueIdentifier>{1D33D852-0996-67F7-B21B-A0AD9E5D337A}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Eisen.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Eisen\EntryPoint.h">
       <Filter>Eisen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eisen\Events\ApplicationEvent.h">
+      <Filter>Eisen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eisen\Events\Event.h">
+      <Filter>Eisen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eisen\Events\KeyEvent.h">
+      <Filter>Eisen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Eisen\Events\MouseEvent.h">
+      <Filter>Eisen\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Eisen\Log.h">
       <Filter>Eisen</Filter>

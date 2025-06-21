@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core.h"
+#include "Eisen/Events/Event.h"
 
 namespace Eisen {
 
